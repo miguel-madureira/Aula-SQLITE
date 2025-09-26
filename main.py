@@ -5,4 +5,4 @@ import sqlite3
 conexao = sqlite3.connect("escola.db")
 
 #Criar o objetivo chamado de "cursor" que será usado para executar os comandos sql 
-cursor = conexao.cursor
+cursor = conexao.cursor()
